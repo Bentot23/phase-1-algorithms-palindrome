@@ -1,5 +1,15 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let reversed = word.split('').reverse().join('')
+  if(reversed === word) return true;
+
+  return false
+  // let len = word.length;
+  // let start = word.substring(0, Math.floor(len/2));
+  // let end = word.substring(len - Math.floor(len/2))
+  // // console.log(start, end);
+  // let flip = end.split('').reverse().join('');
+  // return (start === flip)
 }
 
 /* 
